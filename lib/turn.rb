@@ -8,7 +8,7 @@ def turn(board)
     user_choice = input_to_index(input)
   end
   move(board, user_choice)
-  display_board
+  display_board(board)
 end
 
 def display_board(board)
