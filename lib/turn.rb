@@ -1,6 +1,4 @@
-def turn(board)
-  puts "Please enter 1-9:"
-  user_choice = input_to_index(gets.strip)
+def turn(board, user_choice)
   if valid_move?(user_choice)
     move(board, user_choice)
   end
